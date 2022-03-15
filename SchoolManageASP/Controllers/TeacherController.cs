@@ -13,5 +13,9 @@ namespace SchoolManageASP.Controllers
         {
             return View();
         }
+        public ActionResult Create()
+        {
+            return View();
+        }
     }
 }
