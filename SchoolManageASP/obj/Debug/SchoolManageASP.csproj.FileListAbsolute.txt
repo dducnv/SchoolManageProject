@@ -159,3 +159,7 @@ E:\SchoolManage\SchoolManageProject\SchoolManageASP\obj\Debug\SchoolManageASP.cs
 E:\SchoolManage\SchoolManageProject\SchoolManageASP\obj\Debug\SchoolManageASP.csproj.CopyComplete
 E:\SchoolManage\SchoolManageProject\SchoolManageASP\obj\Debug\SchoolManageASP.dll
 E:\SchoolManage\SchoolManageProject\SchoolManageASP\obj\Debug\SchoolManageASP.pdb
+E:\BaiTapNhom\SchoolManage\SchoolManageASP\SchoolManageASP\bin\EntityFramework.dll
+E:\BaiTapNhom\SchoolManage\SchoolManageASP\SchoolManageASP\bin\EntityFramework.SqlServer.dll
+E:\BaiTapNhom\SchoolManage\SchoolManageASP\SchoolManageASP\bin\EntityFramework.xml
+E:\BaiTapNhom\SchoolManage\SchoolManageASP\SchoolManageASP\bin\EntityFramework.SqlServer.xml
