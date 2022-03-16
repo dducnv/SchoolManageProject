@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="section-wrapper">
+    <label class="section-title">
+        <h3>Student admission form</h3>
+    </label>
+    <p class="mg-b-20 mg-sm-b-40">
+        Single student admission
+    </p>
+    <form class="row" action="form-validation.html" data-parsley-validate>
+        <div class="form-layout">
+            <div class="row mg-b-25">
+                <div class="col-lg-8">
+                    <div class="form-group">
+                        <label class="form-control-label">Name: <span class="tx-danger">*</span></label>
+                        <input class="form-control" type="text" name="firstname" placeholder="Name">
+                    </div>
+                </div><!-- col-4 -->
+                <div class="col-lg-8">
+                    <div class="form-group">
+                        <label class="form-control-label">Email: <span class="tx-danger">*</span></label>
+                        <input class="form-control" type="text" name="email" placeholder="Email">
+                    </div>
+                </div><!-- col-4 -->
+                <div class="col-lg-8">
+                    <div class="form-group">
+                        <label class="form-control-label">Parent: <span class="tx-danger">*</span></label>
+                        <input class="form-control" type="text" name="lastname" placeholder=" Parent">
+                    </div>
+                </div><!-- col-4 -->
+                <div class="col-lg-8">
+                    <div class="form-group">
+                        <label class="form-control-label">Class: <span class="tx-danger">*</span></label>
+                        <input class="form-control" type="text" name="lastname" placeholder=" Class">
+                    </div>
+                </div><!-- col-4 -->
+                <div class="col-lg-8">
+                    <div class="form-group">
+                        <label class="form-control-label">Section: <span class="tx-danger">*</span></label>
+                        <input class="form-control" type="text" name="lastname" placeholder=" Section">
+                    </div>
+                </div><!-- col-4 -->
+                <div class="col-lg-8">
+                    <div class="form-group">
+                        <label class="form-control-label">Birthday: <span class="tx-danger">*</span></label>
+                        <input class="form-control" type="text" name="lastname" placeholder=" Birthday">
+                    </div>
+                </div><!-- col-4 -->
+                <div class="col-lg-8">
+                    <div class="form-group">
+                        <label class="form-control-label">Gender: <span class="tx-danger">*</span></label>
+                        <input class="form-control" type="text" name="lastname" placeholder=" Gender">
+                    </div>
+                </div><!-- col-4 -->
+                <div class="col-lg-8">
+                    <div class="form-group">
+                        <label class="form-control-label">Address: <span class="tx-danger">*</span></label>
+                        <textarea rows="2" class="form-control" placeholder="Address"></textarea>
+                    </div>
+                </div><!-- col-4 -->
+                <div class="col-lg-8">
+                    <div class="form-group">
+                        <label class="form-control-label">Phone: <span class="tx-danger">*</span></label>
+                        <input class="form-control" type="text" name="lastname" placeholder=" Phone">
+                    </div>
+                </div><!-- col-4 -->
+            </div><!-- row -->
+    </form>
+
+    <div class="form-layout-footer">
+        <button class="btn btn-primary bd-0">Submit Form</button>
+        <button class="btn btn-secondary bd-0">Cancel</button>
+    </div><!-- form-layout-footer -->
+    </div><!-- form-layout -->
+</div><!-- section-wrapper -->
