@@ -14,6 +14,7 @@ namespace SchoolManageASP.Models
         public int password { get; set; }
         public int email { get; set; }
         public int numberPhone { get; set; }
+        public int role_id { get; set; }
         public int status { get; set; }
 <<<<<<< HEAD
 =======
