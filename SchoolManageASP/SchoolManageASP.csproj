@@ -128,7 +128,9 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AuthControllerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\TeacherController.cs" />
     <Compile Include="Data\MyDBContext.cs" />
     <Compile Include="Global.asax.cs">
@@ -330,9 +332,15 @@
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Teacher\Index.cshtml" />
     <Content Include="Views\Teacher\Create.cshtml" />
+    <Content Include="Views\Login\Teacher.cshtml" />
+    <Content Include="Views\Login\Admin.cshtml" />
+    <Content Include="Views\Login\Student.cshtml" />
+    <Content Include="Views\Login\Employee.cshtml" />
+    <Content Include="Views\Login\LoginPort.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\AuthController\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -7,7 +7,7 @@ namespace SchoolManageASP.Models
 {
     public class Account
     {
-<<<<<<< HEAD
+
         public int id { get; set; }
         public int username { get; set; }
         public int fullname { get; set; }
@@ -15,7 +15,6 @@ namespace SchoolManageASP.Models
         public int email { get; set; }
         public int numberPhone { get; set; }
         public int status { get; set; }
-=======
->>>>>>> add-view
+
     }
 }
