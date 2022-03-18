@@ -15,5 +15,9 @@ namespace SchoolManageASP.Models
         public int email { get; set; }
         public int numberPhone { get; set; }
         public int status { get; set; }
+<<<<<<< HEAD
+=======
+
+>>>>>>> AuthController
     }
 }
