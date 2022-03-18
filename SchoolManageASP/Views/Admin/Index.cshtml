@@ -16,55 +16,66 @@
                 <div class="col-lg-8">
                     <div class="form-group">
                         <label class="form-control-label">Name: <span class="tx-danger">*</span></label>
-                        <input class="form-control" type="text" name="firstname" placeholder="Name">
+                        <input class="form-control" type="text" name="name" placeholder="Name" data-placeholder="Class" data-parsley-class-handler="#slWrapper" data-parsley-errors-container="#slErrorContainer" required>
                     </div>
                 </div><!-- col-4 -->
                 <div class="col-lg-8">
                     <div class="form-group">
                         <label class="form-control-label">Email: <span class="tx-danger">*</span></label>
-                        <input class="form-control" type="text" name="email" placeholder="Email">
+                        <input class="form-control" type="text" name="email" placeholder="Email" data-placeholder="Class" data-parsley-class-handler="#slWrapper" data-parsley-errors-container="#slErrorContainer" required>
                     </div>
                 </div><!-- col-4 -->
                 <div class="col-lg-8">
                     <div class="form-group">
                         <label class="form-control-label">Parent: <span class="tx-danger">*</span></label>
-                        <input class="form-control" type="text" name="lastname" placeholder=" Parent">
+                        <select class="form-control select2" data-placeholder="Class" data-parsley-class-handler="#slWrapper" data-parsley-errors-container="#slErrorContainer" required>
+                            <option label="Select a parent"></option>
+                        </select>
                     </div>
                 </div><!-- col-4 -->
                 <div class="col-lg-8">
                     <div class="form-group">
                         <label class="form-control-label">Class: <span class="tx-danger">*</span></label>
-                        <input class="form-control" type="text" name="lastname" placeholder=" Class">
+                        <select class="form-control select2" data-placeholder="Class" data-parsley-class-handler="#slWrapper" data-parsley-errors-container="#slErrorContainer" required>
+                            <option label="Select a class"></option>
+                        </select>
                     </div>
                 </div><!-- col-4 -->
                 <div class="col-lg-8">
                     <div class="form-group">
                         <label class="form-control-label">Section: <span class="tx-danger">*</span></label>
-                        <input class="form-control" type="text" name="lastname" placeholder=" Section">
+                        <select class="form-control select2" data-placeholder="Section" data-parsley-class-handler="#slWrapper" data-parsley-errors-container="#slErrorContainer" required>
+                            <option label="Select a class"></option>
+                        </select>
                     </div>
                 </div><!-- col-4 -->
                 <div class="col-lg-8">
                     <div class="form-group">
                         <label class="form-control-label">Birthday: <span class="tx-danger">*</span></label>
-                        <input class="form-control" type="text" name="lastname" placeholder=" Birthday">
+                        <input class="form-control" type="date" name="date" placeholder=" Birthday">
                     </div>
                 </div><!-- col-4 -->
                 <div class="col-lg-8">
                     <div class="form-group">
                         <label class="form-control-label">Gender: <span class="tx-danger">*</span></label>
-                        <input class="form-control" type="text" name="lastname" placeholder=" Gender">
+                        <select class="form-control select2" data-placeholder="Choose one" data-parsley-class-handler="#slWrapper" data-parsley-errors-container="#slErrorContainer" required>
+                            <option label="Select Gender"></option>
+                            <option value="Firefox">Male</option>
+                            <option value="Chrome">Female</option>
+                            <option value="Safari">Others</option>
+                        </select>
                     </div>
                 </div><!-- col-4 -->
                 <div class="col-lg-8">
                     <div class="form-group">
                         <label class="form-control-label">Address: <span class="tx-danger">*</span></label>
-                        <textarea rows="2" class="form-control" placeholder="Address"></textarea>
+                        <textarea rows="2" class="form-control" placeholder="Address" ></textarea>
                     </div>
                 </div><!-- col-4 -->
                 <div class="col-lg-8">
                     <div class="form-group">
                         <label class="form-control-label">Phone: <span class="tx-danger">*</span></label>
-                        <input class="form-control" type="text" name="lastname" placeholder=" Phone">
+                        <input class="form-control" type="text" name="phone" placeholder=" Phone" data-placeholder="Class" data-parsley-class-handler="#slWrapper" data-parsley-errors-container="#slErrorContainer" required>
                     </div>
                 </div><!-- col-4 -->
             </div><!-- row -->
@@ -75,4 +86,3 @@
         <button class="btn btn-secondary bd-0">Cancel</button>
     </div><!-- form-layout-footer -->
     </div><!-- form-layout -->
-</div><!-- section-wrapper -->
